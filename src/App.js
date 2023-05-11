@@ -1,14 +1,12 @@
-import React from 'react'
-import Card from './components/Card'
-import 'bootstrap/dist/css/bootstrap.min.css';
-
+import "./App.css";
+import Cards from "./components/Cards";
 
 function App() {
   return (
-    <div>
-      <Card/>
+    <div className="App">
+      <Cards />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
